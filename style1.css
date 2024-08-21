@@ -1,0 +1,161 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.class1
+{
+    width: 28%;
+    height:350px;
+    background-size: cover;
+    background-position: center center;
+}
+.class1 img
+{
+    width: 100%;
+    height:400px;
+}
+.naved
+{
+    width: 28%;
+    height: 80px;
+    background: linear-gradient(to top left,#006C93,#22C6D7);
+    margin-bottom: 20px;
+}
+.gun
+{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.naved h5
+{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 0.1px;
+}
+
+.footer1
+{
+    width: 100%;
+    height: 47vw;
+    background: rgb(37, 37, 37);
+   padding-top: 50px;
+   padding-left: 70px;
+   display: flex;
+}
+.mainpara
+{
+    font-size: 13px;
+    padding-top: 50px;
+    font-weight: 400;
+   color:  #bec0c3;
+   letter-spacing: 0.2px;
+   padding-bottom: 40px;
+}
+.mainicon
+{
+    color: white;
+    padding-right: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.box3
+{
+    width: 50px;
+    height: 50px;
+    background: #31363f;
+    display: inline-block;
+    padding-left: 3px;
+    padding-top: 11px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.mainicon:hover
+{
+    color:#22C6D7;
+    transition: 0.5s;
+}
+.huzaifa1 h4
+{
+   padding-bottom: 100px;
+}
+.second1
+{
+    color: white;
+    padding-left: 80px;
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: 550;
+}
+.main-content
+{
+    padding-left: 55px;
+    padding-top: 50px;
+    color:  #bec0c3;
+    font-size: 13px;
+}
+.Asif
+{
+    padding-left: 100px;
+    padding-top: 0px;
+    color: #bec0c3;
+}
+.Razi
+{
+    color: #bec0c3;
+    margin-left: 40px;
+    display: flex;
+    position: relative;
+    margin-top: 70px;
+    font-size: 14px;
+    gap: 3px;
+}
+.saima
+{
+    margin-right: 20px;
+    padding-left: 13px;
+}
+.obaid
+{
+    padding-left: 30px;
+    padding-top: 50px;
+    color: #bec0c3;
+    font-size: 14px;
+}
+.sigma
+{
+    width: 300px;
+    height: 120px;
+   margin-left: 90px ;
+   background-image: url(slide1.jpeg);
+   background-position: center center;
+   background-size: cover;
+}
+.sigma1
+{
+     width: 300px;
+     height: 250px;
+     background:#ffffff;
+     margin-left: 90px;
+     overflow: auto;
+}
+#images
+{
+   width: 270px;
+   height:280px;
+}
+.copyright
+{
+  padding-top: 150px;
+  color: #bec0c3;
+}
+

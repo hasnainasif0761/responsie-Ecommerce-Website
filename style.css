@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+    color: red;
+    transition: 0.2s;
+}
+
+.hasnain {
+    width: 50%;
+    height: 50px;
+    background: brown;
+}
+
+nav {
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.icon {
+    display: none;
+}
+
+.symbol {
+    display: none;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav {
+    display: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+}
+
+.first {
+    margin-left: 15%;
+}
+
+.first i {
+    margin-left: 10px;
+    color: white;
+}
+
+.first i:hover {
+    color: #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.vip {
+    margin-left: 20px;
+    color: white;
+    margin-right: 4px;
+    font-weight: 600;
+}
+
+.vip:hover {
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#fish {
+    color: white;
+    font-weight: 548;
+    font-size: 17px;
+}
+
+/* form section */
+.form {
+    width: 60%;
+    height: 400px;
+    background: linear-gradient(to top right, #02aac4, #356c73);
+    margin: 100px;
+    padding-left: 70px;
+    padding-top: 70px;
+    border-radius: 10px;
+    margin-left: 18%;
+}
+
+.second {
+    margin-left: 20%;
+    color: white;
+    font-size: 20px;
+}
+
+.slider {
+    height: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    animation-name: myani;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myani {
+    0% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/digital_marketing-min.jpeg);
+    }
+
+    35% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/web-designing-min.jpg);
+    }
+
+    75% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/fullstack-dev-min.jpg);
+    }
+
+    100% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/mern-slider.webp);
+    }
+
+    120% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/graphic-designing-min.jpg);
+    }
+}
+
+.high {
+    color: white;
+}
+
+form input {
+    padding: 2.3%;
+    width: 40%;
+    border-radius: 7px;
+    border: none;
+    margin-top: 25px;
+}
+
+.number {
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 50%;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background: #262b35;
+    border: none;
+    border-radius: 5px;
+}
+
+.number:hover {
+    background: none;
+    color: #000;
+    border: 1px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#phone {
+    margin-left: 40px;
+}
+
+#hassan P,
+h4 {
+    text-align: center;
+}
+
+#hassan h4 {
+    font-size: 27px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+#hassan p {
+    color: gray;
+    font-size: 13px;
+    font-weight: 750;
+    letter-spacing: 1px;
+}
+
+.para {
+    font-size: 13px;
+    color: #d3f4f7;
+    font-weight: 600;
+}
+
+.box1 {
+    width: 100%;
+    height: 50px;
+    background: #02aac4;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+@media(max-width:700px) {
+    nav {
+        background: rgb(190, 54, 152);
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    .symbol {
+        display: block;
+        font-size: 27px;
+        cursor: pointer;
+    }
+
+    .hidden {
+        width: 100%;
+        height: 250px;
+        background: palevioletred;
+        display: none;
+    }
+
+    .nav {
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 19px;
+        padding-top: 10px;
+    }
+
+    .nav:hover {
+        color: aqua;
+        transition: 0.5s;
+    }
+
+    .icon {
+        display: block;
+        padding-left: 90%;
+        /* padding-top: 0px; */
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        color: aqua;
+        transition: 0.5s;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+    color: rgb(7, 133, 237);
+    transition: 0.5s;
+}
+
+.hasnain {
+    width: 50%;
+    height: 50px;
+    background: brown;
+}
+
+nav {
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.icon {
+    display: none;
+}
+
+.symbol {
+    display: none;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav {
+    display: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+}
+
+.first {
+    margin-left: 15%;
+}
+
+.first i {
+    margin-left: 10px;
+    color: white;
+}
+
+.first i:hover {
+    color: #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.vip {
+    margin-left: 20px;
+    color: white;
+    margin-right: 4px;
+    font-weight: 600;
+}
+
+.vip:hover {
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#fish {
+    color: white;
+    font-weight: 548;
+    font-size: 17px;
+}
+
+/* form section */
+.form {
+    width: 60%;
+    height: 400px;
+    background: linear-gradient(to top right, #02aac4, #356c73);
+    margin: 100px;
+    padding-left: 70px;
+    padding-top: 70px;
+    border-radius: 10px;
+    margin-left: 18%;
+}
+
+.second {
+    margin-left: 20%;
+    color: white;
+    font-size: 20px;
+}
+
+.slider {
+    height: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    animation-name: myani;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myani {
+    0% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/digital_marketing-min.jpeg);
+    }
+
+    35% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/web-designing-min.jpg);
+    }
+
+    75% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/fullstack-dev-min.jpg);
+    }
+
+    100% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/mern-slider.webp);
+    }
+
+    120% {
+        background-image: url(https://www.nwebsolution.net/app/servers/nwebsolution01/admin/upload/graphic-designing-min.jpg);
+    }
+}
+
+.high {
+    color: white;
+}
+
+form input {
+    padding: 2.3%;
+    width: 40%;
+    border-radius: 7px;
+    border: none;
+    margin-top: 25px;
+}
+
+.number {
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 50%;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background: #262b35;
+    border: none;
+    border-radius: 5px;
+}
+
+.number:hover {
+    background: none;
+    color: #000;
+    border: 1px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#phone {
+    margin-left: 40px;
+}
+
+#hassan P,
+h4 {
+    text-align: center;
+}
+
+#hassan h4 {
+    font-size: 27px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+#hassan p {
+    color: gray;
+    font-size: 13px;
+    font-weight: 750;
+    letter-spacing: 1px;
+}
+
+.para {
+    font-size: 13px;
+    color: #d3f4f7;
+    font-weight: 600;
+}
+
+.box1 {
+    width: 100%;
+    height: 50px;
+    background: #02aac4;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+@media(max-width:700px) {
+    nav {
+        background: rgb(190, 54, 152);
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    .symbol {
+        display: block;
+        font-size: 27px;
+        cursor: pointer;
+    }
+
+    .hidden {
+        width: 100%;
+        height: 250px;
+        background: palevioletred;
+        display: none;
+    }
+
+    .nav {
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 19px;
+        padding-top: 10px;
+    }
+
+    .nav:hover {
+        color: aqua;
+        transition: 0.5s;
+    }
+
+    .icon {
+        display: block;
+        padding-left: 90%;
+        /* padding-top: 0px; */
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        color: aqua;
+        transition: 0.5s;
+    }
+} 
+
